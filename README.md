@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2bl0h1Mb)
 # NeXtCS Project 01
-### Name0: YOUR NAME HERE
-### Name1: TEAMMATE NAME HERE (delete line if working solo)
+### Name0: Hannah Moon
+### Name1: Timmy Ngo
 ---
 
 ### Overview
@@ -17,50 +17,61 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: Breakout/Arkanoid
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
+- ball
+- blocks (that will disappear)
+- platform (that ball bounces off of)
+- score/win/lose
+- play [again] button
+- collision
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- variety of colors
+- background
+- multiple balls
+- different sizes of platform
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- balls
 
 2D Array:
-- YOUR ANSWER HERE
-
+- coordinates of:
+    - blocks
+    - platform
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- arrow keys (left & right): controls movement of the platform
+- r: resets the game
+- space: pauses the game
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: nothing
+- Mouse pressed: starts the game
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+Block Class
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - coordinates (pvector)
 - METHODS
-  - LIST METHODS HERE
-
-CLASS NAME1
+  - display
+    
+Ball Class
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - coordinates (pvector)
 - METHODS
-  - LIST METHODS HERE
+  - display
