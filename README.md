@@ -52,12 +52,11 @@ How will you be using arrays in this project?
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- arrow keys (left & right): controls movement of the platform
 - r: resets the game
 - space: pauses the game
 
 Mouse Control:
-- Mouse movement: nothing
+- Mouse movement: moves the platform
 - Mouse pressed: starts the game
 
 
