@@ -71,7 +71,7 @@ Block Class
     
 Ball Class
 - Instance variables:
-  - x,y,center,radius,bcolor
+  - x,y,radius,bcolor
 - METHODS
   - display
   - move
