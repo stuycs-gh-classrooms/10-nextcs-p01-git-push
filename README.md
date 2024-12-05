@@ -45,8 +45,7 @@ How will you be using arrays in this project?
 
 2D Array:
 - coordinates of:
-    - blocks
-    - platform
+    - blocks (if power-ups are implemented)
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
@@ -66,11 +65,14 @@ What classes will you be creating for this project? Include the instance variabl
 Block Class
 - Instance variables:
   - x,y,width,height
+- METHODS
   - display
+  - boolean(hit)
     
 Ball Class
 - Instance variables:
-  - x,y,center,bcolor
+  - x,y,center,radius,bcolor
 - METHODS
   - display
   - move
+  - makeBalls
