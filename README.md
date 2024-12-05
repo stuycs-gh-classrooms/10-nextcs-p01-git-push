@@ -65,12 +65,12 @@ What classes will you be creating for this project? Include the instance variabl
 
 Block Class
 - Instance variables:
-  - coordinates (pvector)
-- METHODS
+  - x,y,width,height
   - display
     
 Ball Class
 - Instance variables:
-  - coordinates (pvector)
+  - x,y,center,bcolor
 - METHODS
   - display
+  - move
