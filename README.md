@@ -6,7 +6,7 @@
 
 ### Overview
 Your mission is create either:
-- Life-like cellular automata [life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), [life-like](https://en.wikipedia.org/wiki/Life-like_cellular_automaton), [demo](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Computer%20Science/Cellular%20Automata/Life.nlogo).
+- Life-like cellular automata [life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), [life-like](https://en.wikipedia.org/wiki/Life-like_cellular_automaton), [demo](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/ComputZer%20Science/Cellular%20Automata/Life.nlogo).
 - Breakout/Arkanoid [demo 0](https://elgoog.im/breakout/)  [demo 1](https://www.crazygames.com/game/atari-breakout)
 - Space Invaders/Galaga
 
@@ -45,8 +45,7 @@ How will you be using arrays in this project?
 
 2D Array:
 - coordinates of:
-    - blocks
-    - platform
+    - blocks (if power-ups are implemented)
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
@@ -65,12 +64,15 @@ What classes will you be creating for this project? Include the instance variabl
 
 Block Class
 - Instance variables:
-  - coordinates (pvector)
+  - x,y,width,height
 - METHODS
   - display
+  - boolean(hit)
     
 Ball Class
 - Instance variables:
-  - coordinates (pvector)
+  - x,y,radius,bcolor
 - METHODS
   - display
+  - move
+  - makeBalls
